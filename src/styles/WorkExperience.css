@@ -1,0 +1,12 @@
+.work-experience h2 {
+    color: #3b9e5a;
+}
+
+.work-experience h3 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.work-experience ul {
+    list-style: square;
+}

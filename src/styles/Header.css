@@ -1,0 +1,124 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #242424;
+    margin-bottom: 2rem;
+    color: #fff;
+    padding: 2vh 2%;
+}
+
+.header h1 {
+    color: #3b9e5a;
+    font-size: 2.5rem;
+}
+
+.header ul {
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    width: 60%;
+    padding: 0;
+}
+
+.header a {
+    display: block;
+    padding: 0;
+    margin-left: 0;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+
+#tg::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    /* Adjust the width as needed */
+    height: 20px;
+    /* Adjust the height as needed */
+    background-image: url("../telegram.png");
+    background-size: cover;
+    background-position: center;
+
+    margin-left: 5px;
+    /* Adjust the margin as needed */
+    vertical-align: middle;
+}
+
+#email::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    /* Adjust the width as needed */
+    height: 20px;
+    /* Adjust the height as needed */
+    background-image: url("../mail.png");
+    background-size: cover;
+    background-position: center;
+
+    margin-left: 5px;
+    /* Adjust the margin as needed */
+    vertical-align: middle;
+}
+
+#location::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    /* Adjust the width as needed */
+    height: 20px;
+    /* Adjust the height as needed */
+    background-image: url("../location.png");
+    background-size: cover;
+    background-position: center;
+
+    margin-left: 5px;
+    /* Adjust the margin as needed */
+    vertical-align: middle;
+}
+
+#tg {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#location {
+    width: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#email {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header li {
+
+    margin-bottom: 0.5rem;
+}
+
+.header-photo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.header a:hover {
+    color: #e7fbe3;
+    text-decoration: none;
+}
