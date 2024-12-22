@@ -25,7 +25,7 @@ const Projects = () => {
 
                 </div></a>
                 <a href="https://github.com/sergeysamohin/Bench_of_love.git"><div className="block">
-                    <h3>TODO List</h3>
+                    <h3>Bench of love</h3>
                     <img src="benchOfLove.png" alt="" />
                     <div className="text">
                         <p>Project Manager</p>
