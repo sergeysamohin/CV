@@ -4,7 +4,7 @@ import "../styles/Skils.css";
 const Skils = () => {
     return (
         <section className="skils">
-            <h2>SKILS</h2>
+            <h2>SKILLS</h2>
             <div className="flex-wrapper">
                 <div className="left-skils">
                     <h3>Technical</h3>
