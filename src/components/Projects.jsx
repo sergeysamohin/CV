@@ -8,7 +8,7 @@ const Projects = () => {
             <div className="flex-wrapper2">
                 <a href="https://github.com/sergeysamohin/TODO-list2.git"><div className="block">
                     <h3>TODO List</h3>
-                    <img src="/todoList.png" alt="" />
+                    <img src="todoList.png" alt="" />
                     <div className="text">
                         <p>Frontend</p>
                         <p>React, JS, HTML, CSS</p>
@@ -17,7 +17,7 @@ const Projects = () => {
                 </div></a>
                 <a href="https://github.com/sergeysamohin/Lamoda.git"><div className="block">
                     <h3>LAMODA</h3>
-                    <img src="/lamoda.png" alt="lamoda" />
+                    <img src="lamoda.png" alt="lamoda" />
                     <div className="text">
                         <p>Frontend</p>
                         <p>React, JS, HTML, CSS</p>
@@ -26,7 +26,7 @@ const Projects = () => {
                 </div></a>
                 <a href="https://github.com/sergeysamohin/Bench_of_love.git"><div className="block">
                     <h3>TODO List</h3>
-                    <img src="/benchOfLove.png" alt="" />
+                    <img src="benchOfLove.png" alt="" />
                     <div className="text">
                         <p>Project Manager</p>
                         <p>
